@@ -118,4 +118,34 @@
             }
         }
     }
+
+    //Sınıf elemanlarını bir sınıf içerisinde toplayacak olursak aşağıdaki gibi gözükmektedir. (Field,Property,Method,Indexer vs.)
+    class ExampleClass
+    {
+        //Summary şeklinde tanımladığımız yorum satırları , eğer biz bu classtan bir nesne üretirsek orada ürettiğimiz nesne üzerinde açıklamasını göstermeye yarar.
+
+
+        /// <summary>
+        /// Bu bir fileddir. 
+        /// </summary>
+        int number;
+
+        /// <summary>
+        /// Bu bir propertydir.
+        /// </summary>
+        public int MyProperty { get; set; }
+        public void ExampleMethod() { }
+
+        //Bu bir Indexer dir.
+        public int this[int a]
+        {
+            get { return 0; }
+        }
+
+        //Nested class dır. Bu class ExampleClass ın elemanı değildir. Dikkat edin..
+        class SampleClass
+        {
+
+        }
+    }
 }
