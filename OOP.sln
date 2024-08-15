@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism", "Polymorphis
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstracts", "Abstracts\Abstracts.csproj", "{FAB161CA-28A3-4E39-9AF8-4BE4401207B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{242D613D-2D30-459C-A215-4918DD56DDD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{242D613D-2D30-459C-A215-4918DD56DDD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{B9F5EF98-EDA4-4378-B03C-95D1E9689C8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{242D613D-2D30-459C-A215-4918DD56DDD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{242D613D-2D30-459C-A215-4918DD56DDD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{242D613D-2D30-459C-A215-4918DD56DDD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9F5EF98-EDA4-4378-B03C-95D1E9689C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F5EF98-EDA4-4378-B03C-95D1E9689C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9F5EF98-EDA4-4378-B03C-95D1E9689C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9F5EF98-EDA4-4378-B03C-95D1E9689C8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
